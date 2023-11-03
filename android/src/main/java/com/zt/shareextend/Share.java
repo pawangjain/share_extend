@@ -57,7 +57,7 @@ public class Share {
         ArrayList<Uri> uriList = new ArrayList<>();
 
         Intent shareIntent = new Intent();
-        shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        // shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         shareIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
 
         if ("text".equals(type)) {
