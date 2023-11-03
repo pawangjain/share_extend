@@ -6,7 +6,8 @@
         <provider
             android:name="com.zt.shareextend.ShareExtendProvider"
             android:authorities="${applicationId}.shareextend.fileprovider"
-            android:exported="false">
+            android:exported="false"
+            android:grantUriPermissions="true">
             <!-- android:grantUriPermissions="true"> -->
         </provider>
 
